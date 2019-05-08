@@ -10,6 +10,7 @@ export class HeroesComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    //This is a lifecycle hook. Performs complex initializations after construction and sets up component after input properties are set.
   }
 
 }
