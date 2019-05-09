@@ -8,5 +8,12 @@
     </ul>
 </h2>
 
+<div>
+    <label>Hero name:
+        <input #heroName />
+    </label>
+    <button (click)="add(heroName.value); heroName.value=''">Add</button>
+</div>
+
 <!-- use property binding to give HeroesComponent control over HeroDetailComponent-->
 <app-hero-detail [hero]="selectedHero"></app-hero-detail>
